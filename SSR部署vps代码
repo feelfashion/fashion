@@ -1,0 +1,6 @@
+yum install wget -y
+
+
+wget --no-check-certificate -O shadowsocksR.sh https://git.io/vHRHi
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
